@@ -101,7 +101,7 @@ func TestShowTrainingInfo(t *testing.T) {
 
 	unknownTest := "неизвестный тип тренировки"
 
-	tests := []struct {
+	var tests = []struct {
 		name string
 		args args
 		want string
